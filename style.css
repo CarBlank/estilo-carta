@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+}
+
+h1 , h2 , h3{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: larger;
+}
+
+.paragraph p {
+    margin-bottom: 20px;
+}
+
+
+
+address{
+    margin-bottom: 20px;
+}
+
+address:nth-child(1) {
+    text-align: right;
+}
+
+address p:last-child {
+    margin-top: 20px;
+}
+
+.length{
+    width: 132px; 
+    /* border: 1px solid #000000; */
+}
+
+.wordwrap{
+    word-wrap: break-word;
+}
+
+.paragraph{
+    margin-bottom: 20px;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+/* 
+div:last-child {
+    margin-bottom: 40px;
+}
+ */
+/* porque no coge todos los p de los div */
+/* p:first-child { 
+    margin-bottom: 20px;
+    color: red;
+} */
+
+.bold {
+    font-weight: 900;
+}
+
+a {
+    color:rgb(160, 59, 233);
+}
+
+.final {
+    margin-top: 60px;
+}
+/* porque no funciona
+ *//* span.margin {
+    margin-top: 40px;
+} */
+
+ul , ol , dl{
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-left: 40px;
+}
+
+ol li {
+    margin-left: 40px;
+}
+
+::marker{
+    color: red;
+}
+
+dd {
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+dd:last-child {
+    margin-bottom: 20px;
+}
+
+#subindice{
+    vertical-align: sub;
+/*     porque no funciona text-botom    */}
+
+#quote{
+    quotes: "'" "'"
+}
+
